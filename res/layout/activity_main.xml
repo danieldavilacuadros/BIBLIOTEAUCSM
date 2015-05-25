@@ -58,4 +58,31 @@
         android:text="Fecha de devolucion"
         android:textColor="#4682B4" />
 
+     <Button
+         android:id="@+id/btnNotas"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/button2"
+         android:onClick="onClickNotas"
+         android:text="Notas-arhivo" />
+
+      <Button
+          android:id="@+id/btnPreferences"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/btnNotas"
+          android:onClick="onClickLoad"
+          android:text="pantalla de carga de preferencias" />
+
+      <Button
+          android:id="@+id/btnContacto"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/btnPreferences"
+          android:onClick="onClickContacto"
+          android:text="Contactanos" />
+
 </RelativeLayout>

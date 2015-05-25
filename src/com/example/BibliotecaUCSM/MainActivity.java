@@ -37,6 +37,21 @@ public class MainActivity extends Activity {
 	public void clicDevolucion(View view) {
 		startActivity(new Intent("com.example.proyecto.devolucion"));
 	}
+	public void onClickLoad(View view) {
+		Intent i = new Intent("com.example.proyecto.AppPreferenceActivity");
+		startActivity(i);
+	}
+	public void onClickNotas(View view) {
+		Intent i = new Intent("com.example.proyecto.notas");
+		startActivity(i);
+	}
+	
+	public void onClickContacto(View view) {
+		Intent i = new Intent("com.example.proyecto.SMSActivity");
+		startActivity(i);
+	}
+	
+	
 	public void ClicManejador(View view) {
 		
 			RadioButton busquedaButton = (RadioButton) findViewById(R.id.radio0);

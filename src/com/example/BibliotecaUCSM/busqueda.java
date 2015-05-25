@@ -4,6 +4,8 @@ import com.example.BibliotecaUCSM.R;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 
